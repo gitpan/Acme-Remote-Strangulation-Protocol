@@ -1,0 +1,6 @@
+Revision history for Perl extension Acme::Remote::Strangulation::Protocol.
+
+0.01  Fri May 14 10:23:38 2004
+	- original version; created by h2xs 1.20 with options
+		-AXn Acme::Remote::Strangulation::Protocol
+
