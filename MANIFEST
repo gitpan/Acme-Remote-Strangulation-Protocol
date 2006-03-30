@@ -3,4 +3,6 @@ MANIFEST
 Makefile.PL
 Protocol.pm
 t/01load.t
+t/02pod.t
 README
+META.yml

@@ -1,7 +1,7 @@
 package Acme::Remote::Strangulation::Protocol;
 use strict;
 use vars qw($VERSION);
-$VERSION = '0.01';
+$VERSION = '0.03';
 
 my $glass = " \t"x8;
 sub reflect { local $_ = unpack "b*", pop; tr/01/ \t/; s/(.{9})/$1\n/g; $glass.$_ }
